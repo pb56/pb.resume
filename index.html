@@ -12,9 +12,9 @@
 <body>
     <div class="container">
         <div class="info">
-            
-            <img src="https://sun1-25.userapi.com/s/v1/ig2/Xn97BAbX7c1ivRQ-OqUM2jIJ1nlg_NizZxwrPY7vm6J29LQyI-ORG9BOj2kd0bltcfqQe4YCxjBDelVHJJVnok_A.jpg?size=200x200&quality=95&crop=425,408,1140,1140&ava=1" width="150">
-            
+                <!-- <div class="img"> -->
+                    <img src="avatar.jpg" width="700">
+                <!-- </div>    -->
             <div class="info-text">
                 <h1>Безденежных Павел</h1>
 
@@ -46,10 +46,10 @@
         <div class="card bg-moccasin">
             <h2>Опыт работы:</h2>
 
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Название</th>
+                        <th>Название компании</th>
                         <th>Должность</th>
                         <th>Год</th>
                     </tr>
@@ -74,27 +74,30 @@
             </table>
         </div>
 
-        <div class="card tan">
-            <h2>Связаться со мной</h2>
+        <div class="card bg-tan">
+
+            <h2>Связаться со мной:</h2>
 
             <form>
 
-                <div>
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите имя"> 
-                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя"> 
+                    </div>
 
-                <div>
-                    <label for="email">Ваш email:</label>
-                    <input type="email" id="email" placeholder="Введите email">   
-                </div>
-
-                <div>
-                    <label for="message">Ваше cообщение:</label>
-                    <br>
-                    <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
-                    <br>
-                </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">   
+                    </div>
+                </div>       
+                    <div class="form-group">
+                        <label for="message">Ваше cообщение:</label>
+                        <br>
+                        <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+                        <br>
+                    </div>
+                
                 
                 <input type="button" value="Отправить!" class="btn">
 
